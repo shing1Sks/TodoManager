@@ -14,7 +14,7 @@ function Todo({todo}) {
     } 
   return (
     <div className={`flex border border-black/10 rounded-lg px-3 py-1.5 gap-x-3 shadow-sm shadow-white/50 duration-300  text-black ${ todo.done ? "bg-[#c6e9a7]" : "bg-[#ccbed7]"}`}>
-      <input
+           <input
                 type="checkbox"
                 className="cursor-pointer"
                 checked={todo.done}
@@ -22,7 +22,7 @@ function Todo({todo}) {
             />
             <input
                 type="text"
-                className={`border outline-none w-full bg-transparent rounded-lg ${
+                className={`border outline-none w-full text-xl bg-transparent rounded-lg ${
                     isTodoEditable ? "border-black/10 px-2" : "border-transparent"
                 } ${todo.done ? "line-through" : ""}`}
                 value={todoMsg}
