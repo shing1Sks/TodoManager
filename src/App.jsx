@@ -57,7 +57,7 @@ export default function App() {
         <div className=" md:w-[70%] w-[90%] font-bold h-auto border-2 border-gray-300 p-8 bg-[#DAE0F5] rounded-lg text-center text-2xl text-white shadow-xl">
           <h2 className="">Manage your TODO's</h2>
           <Form />
-          <div className="flex flex-wrap gap-y-3 mt-2 font-medium">
+          <div className="flex flex-wrap text-xl gap-y-3 mt-2 font-medium">
             {/*Loop and Add TodoItem here */}
             {
               todos.map((todo)=>(
