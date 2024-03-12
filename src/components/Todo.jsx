@@ -22,7 +22,7 @@ function Todo({todo}) {
             />
             <input
                 type="text"
-                className={`border outline-none w-full text-xl bg-transparent rounded-lg ${
+                className={`border outline-none w-full text-gray-400 text-xl bg-transparent rounded-lg ${
                     isTodoEditable ? "border-black/10 px-2" : "border-transparent"
                 } ${todo.done ? "line-through" : ""}`}
                 value={todoMsg}
