@@ -54,7 +54,7 @@ export default function App() {
   return (
     <Provider value = {{todos,addTodo,removeTodo,updateTodo,toggleDone}}>
       <div className=" w-screen min-h-screen  bg-[#F5F5F5] flex justify-center p-8">
-        <div className=" md:w-[70%] w-[90%]  h-auto border-2 border-gray-300 p-8 bg-[#DAE0F5] rounded-lg text-center text-2xl text-white shadow-xl">
+        <div className=" md:w-[70%] w-[90%] font-bold h-auto border-2 border-gray-300 p-8 bg-[#DAE0F5] rounded-lg text-center text-2xl text-white shadow-xl">
           <h2 className="">Manage your TODO's</h2>
           <Form />
           <div className="flex flex-wrap gap-y-3 mt-2">
